@@ -37,11 +37,12 @@ main {
   font-size: 20px;
   margin-top: 30px;
   height: auto;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:"Sawarabi Mincho";
 }
 
 #startsentence {
   margin: 100px;
+  font-size: 30px;
 }
 
 h2 {
