@@ -1,0 +1,394 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 32px;
+  width: 100%;
+}
+
+header {
+  background-color: rgb(170, 225, 238);
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  padding-top: 10px ;
+  color:palevioletred;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 50px;
+  font-family: "Sawarabi Mincho";
+}
+
+main {
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  text-align: center;
+}
+
+#topimg {
+  width: 300px;
+}
+
+#leadsentence {
+  font-size: 20px;
+  margin-top: 30px;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#startsentence {
+  margin: 100px;
+}
+
+h2 {
+  font-size: 20px;
+  color: palevioletred;
+  font-family: "Sacrament", cursive;
+}
+
+.quiz {
+  margin-bottom: 70px;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: "Sawarabi Gothic";
+}
+
+.btn1A {
+  background-color: pink ;
+  padding: 15px 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Sawarabi Gothic";
+  border: 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+.btn1A:hover {
+  opacity:0.8;
+}
+.btn1A:active {
+  transform: translateY(2px);
+}
+
+.btn1B {
+  background-color: pink ;
+  padding: 15px 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Sawarabi Gothic";
+  border: 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+.btn1B:hover {
+  opacity:0.8;
+}
+.btn1B:active {
+  transform: translateY(2px);
+}
+
+.btn2A {
+  background-color: pink ;
+  padding: 15px 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Sawarabi Gothic";
+  border: 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+.btn2A:hover {
+  opacity:0.8;
+}
+.btn2A:active {
+  transform: translateY(2px);
+}
+
+
+.btn2B {
+  background-color: pink ;
+  padding: 15px 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Sawarabi Gothic";
+  border: 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+.btn2B:hover {
+  opacity:0.8;
+}
+.btn2B:active {
+  transform: translateY(2px);
+}
+
+.btn3A {
+  background-color: pink ;
+  padding: 15px 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Sawarabi Gothic";
+  border: 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+.btn3A:hover {
+  opacity:0.8;
+}
+.btn3A:active {
+  transform: translateY(2px);
+}
+
+.btn3B {
+  background-color: pink ;
+  padding: 15px 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Sawarabi Gothic";
+  border: 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+.btn3B:hover {
+  opacity:0.8;
+}
+.btn3B:active {
+  transform: translateY(2px);
+}
+
+.btn4A {
+  background-color: pink ;
+  padding: 15px 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Sawarabi Gothic";
+  border: 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+.btn4A:hover {
+  opacity:0.8;
+}
+.btn4A:active {
+  transform: translateY(2px);
+}
+
+.btn4B {
+  background-color: pink ;
+  padding: 15px 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Sawarabi Gothic";
+  border: 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+.btn4B:hover {
+  opacity:0.8;
+}
+.btn4B:active {
+  transform: translateY(2px);
+}
+
+.btn5A {
+  background-color: pink ;
+  padding: 15px 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Sawarabi Gothic";
+  border: 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+.btn5A:hover {
+  opacity:0.8;
+}
+.btn5A:active {
+  transform: translateY(2px);
+}
+
+.btn5B {
+  background-color: pink ;
+  padding: 15px 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Sawarabi Gothic";
+  border: 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+.btn5B:hover {
+  opacity:0.8;
+}
+.btn5B:active {
+  transform: translateY(2px);
+}
+
+.btn6A {
+  background-color: pink ;
+  padding: 15px 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Sawarabi Gothic";
+  border: 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+.btn6A:hover {
+  opacity:0.8;
+}
+.btn6A:active {
+  transform: translateY(2px);
+}
+
+.btn6B {
+  background-color: pink ;
+  padding: 15px 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Sawarabi Gothic";
+  border: 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+.btn6B:hover {
+  opacity:0.8;
+}
+.btn6B:active {
+  transform: translateY(2px);
+}
+
+.btn7A {
+  background-color: pink ;
+  padding: 15px 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Sawarabi Gothic";
+  border: 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+.btn7A:hover {
+  opacity:0.8;
+}
+.btn7A:active {
+  transform: translateY(2px);
+}
+
+.btn7B {
+  background-color: pink ;
+  padding: 15px 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Sawarabi Gothic";
+  border: 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+.btn7B:hover {
+  opacity:0.8;
+}
+.btn7B:active {
+  transform: translateY(2px);
+}
+
+.result_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: palevioletred;
+  border-color: palevioletred;
+  padding: 20px 20px;  
+  margin: 10px 10px;
+  font-family: "Sawarabi Mincho";
+}
+
+.type {
+  color: chocolate;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-family: "Sawarabi Mincho";
+  margin-bottom: 70px;
+}
+
+#result_btn {
+  background-color: #b3d4f3;
+  border-color: #b3d4f3;
+  font-family: "Sawarabi Gothic";
+  padding: 10px 5px;
+  width: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+#clear_btn {
+  background-color: #b3d4f3;
+  border-color: #b3d4f3;
+  font-family: "Sawarabi Gothic";
+  padding: 10px 5px;
+  width: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+table {
+  border: 0 solid #8dc3f5;
+  width: 800px;
+  margin: 0 auto;
+}
+
+th {
+  width: 60px;
+  border-bottom: 1px solid #8dc3f5;
+  font-family: "Sawarabi Gothic";
+  font-size: 15px;
+  text-align: center;
+  background-color: white;
+}
+
+td {
+  width: 50px;
+  font-size: 15px;
+  background-color: white;
+  border-bottom: 1px solid #8dc3f5;
+}
+
+#beforeresult {
+  margin-top: 70px;
+}
+
+footer {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  font-family: "Sacrament", cursive;
+}
+p {
+  font-size: 200%;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  height: 200px;
+}
+
+#key {
+  margin: 0 3%;
+  width: 95%;
+  font-size: 80%;
+  background-color: #e1efff;
+  box-shadow: 3px 3px 3px 3px #555;
+}
+

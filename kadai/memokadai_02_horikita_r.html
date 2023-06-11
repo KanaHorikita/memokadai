@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="js/jquery-2.1.3.min.js"></script>
+<link rel="stylesheet" href="css/sample.css">
+<title>イエベ・ブルべ診断</title>
+
+<!-- Googleフォントここから -->
+<link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+<!-- Googleフォントここまで -->
+
+</head>
+<body>
+<header>
+<h1>イエベ・ブルべ診断</h1>
+</header>
+<main>
+   
+    <h1>
+        <img id="topimg" src="./img/personalcolor2.jpg" alt="">
+        <p id="leadsentence">じぶんの肌の色タイプを知ることで、コスメや洋服選びのヒントにしましょう！</p>
+    </h1>
+    <h1 id="startsentence">次の質問を読んで、自分に当てはまる回答をAとBから選んでください。</h1>
+   
+    <div class="quiz">
+        <h2>
+            Q1
+            <h3>腕の内側から見える血管は何色に見える？</h3>      
+               <button class="btn1A">A：緑っぽく見える</button>
+               <button class="btn1B">B：青っぽく見える</button>
+        </h2> 
+    </div>
+    
+    <div class="quiz">
+        <h2>
+            Q2
+            <h3>肌のお悩みで多いのは？</h3>
+            <button class="btn2A">A：くすみやすい</button>
+            <button class="btn2B">B：血色感がない</button>
+        </h2>
+    </div>
+
+    <div class="quiz">
+         <h2>
+            Q3
+            <h3>手のひらの色はどちらに近い？</h3>
+            <button class="btn3A">A：オレンジまたは黄色っぽい</button>
+            <button class="btn3B">B：ピンクまたは青っぽい</button>    
+        </h2>
+    </div>
+
+    <div class="quiz">
+        <h2>
+        Q4
+            <h3>白目の色はどちらに近い？</h3>
+                <button class="btn4A">A：アイボリーのような柔らかな色</button>
+                <button class="btn4B">B：水色のようなクールな色</button>
+        </h2>
+    </div>
+
+    <div class="quiz">
+        <h2>
+        Q5
+            <h3>どちらのアクセサリーが似合う？</h3>
+                <button class="btn5A">A：ゴールド系のアクセサリー</button>
+                <button class="btn5B">B：シルバー系のアクセサリー</button>
+        </h2>
+    </div>
+   
+    <div class="quiz">
+        <h2>
+        Q6
+            <h3>瞳の色はどちらに近い？</h3>
+                <button class="btn6A">A：ブラック～ダークブラウン</button>
+                <button class="btn6B">B：ブラウン～ライトブラウン</button>
+        </h2>
+    </div>
+
+    <div class="quiz">
+        <h2>
+        Q7
+            <h3>顔の赤みは？</h3>
+                <button class="btn7A">A：出にくい</button>
+                <button class="btn7B">B：出やすい</button>
+        </h2>
+    </div>
+  
+    <button id="result_btn">回答一覧を表示</button>
+    <button id="clear_btn">回答一覧をクリア</button>
+
+    <table id="list">
+        <tbody>
+    <!-- ここに追加データが挿入される -->
+        </tbody>
+    </table>    
+      
+    <h2 id="beforeresult">
+    診断の結果は・・・？
+   </h2>
+        <div class="result_container">
+        <div class="card">
+            <div class="title">Aが多かった人...</div>
+            <div class="type">暖色系や黄味の効いたカラーが似合う「イエベさん」</div>
+        </div>
+        <div class="card">
+                <div class="title">Bが多かった人...</div>
+                <div class="type">寒色系や青みの効いたカラーが似合う「ブルベさん」</div>
+        </div>
+        </div>
+
+</main>
+
+<script>
+
+$(".btn1A").on("click", function(){
+    question = "腕の内側から見える血管は何色に見える？"
+    choice = "A"
+    localStorage.setItem(question,choice)
+}); 
+
+$(".btn1B").on("click", function(){
+        question = "腕の内側から見える血管は何色に見える？"
+        choice = "B"
+        localStorage.setItem(question,choice)
+})
+
+$(".btn2A").on("click", function(){
+    question = "肌のお悩みで多いのは？"
+    choice = "A"
+    localStorage.setItem(question,choice)     
+}); 
+
+$(".btn2B").on("click", function(){
+    question = "肌のお悩みで多いのは？"
+    choice = "B"
+    localStorage.setItem(question,choice)
+    })
+
+$(".btn3A").on("click", function(){
+    question = "手のひらの色はどちらに近い？"
+    choice = "A"
+    localStorage.setItem(question,choice)
+}); 
+
+$(".btn3B").on("click", function(){
+        question = "手のひらの色はどちらに近い？"
+        choice = "B"
+        localStorage.setItem(question,choice)
+    })
+
+$(".btn4A").on("click", function(){
+    question = "白目の色はどちらに近い？"
+    choice = "A"
+    localStorage.setItem(question,choice)
+}); 
+
+$(".btn4B").on("click", function(){
+        question = "白目の色はどちらに近い？"
+        choice = "B"
+        localStorage.setItem(question,choice)
+    })
+
+$(".btn5A").on("click", function(){
+    question = "どちらのアクセサリーが似合う？"
+    choice = "A"
+    localStorage.setItem(question,choice)
+}); 
+
+$(".btn5B").on("click", function(){
+        question = "どちらのアクセサリーが似合う？"
+        choice = "B"
+        localStorage.setItem(question,choice)
+    })
+
+$(".btn6A").on("click", function(){
+    question = "瞳の色はどちらに近い？"
+    choice = "A"
+    localStorage.setItem(question,choice)
+}); 
+
+$(".btn6B").on("click", function(){
+        question = "瞳の色はどちらに近い？"
+        choice = "B"
+        localStorage.setItem(question,choice)
+    })
+
+$(".btn7A").on("click", function(){
+    question = "顔の赤みは？"
+    choice = "A"
+    localStorage.setItem(question,choice)
+}); 
+
+$(".btn7B").on("click", function(){
+        question = "顔の赤みは？"
+        choice = "B"
+        localStorage.setItem(question,choice)
+    })
+
+$("#result_btn").on("click", function(){
+    for(let i=0; i<localStorage.length; i++){
+    const key   = localStorage.key(i);
+    const value = localStorage.getItem(key);
+    const html = '<tr><th>'+key+'</th><td>'+value+'</td></tr>';
+    $("#list").append(html);
+}
+    localStorage.clear();
+});
+
+$("#clear_btn").on("click", function(){
+    localStorage.clear();
+    $("#list").empty();
+});
+
+
+</script>
+<footer><small><a href="https://www.j-lounge.jp/blogs/magazine/fashionmagazine190922"></a></small></footer>
+</body>
+</html>
